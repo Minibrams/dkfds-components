@@ -1,7 +1,7 @@
 {
-  "name": "dkfds",
-  "version": "8.2.1",
-  "description": "Det Fælles Designsystem er den fælles guide til selvbetjeningsløsninger, der skal på Borger.dk og Virk.",
+  "name": "@minibrams/dkfds",
+  "version": "0.0.1",
+  "description": "Fork of DKFDS fixed for use with Vue.js and Vite.",
   "engines": {
     "node": ">= 4"
   },
