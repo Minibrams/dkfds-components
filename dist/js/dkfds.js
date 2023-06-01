@@ -4681,10 +4681,10 @@ Modal.prototype.show = function () {
     }
 
     // Hide open modals - FDS do not recommend more than one open modal at a time
-    var activeModals = document.querySelectorAll('.fds-modal[aria-hidden=false]');
-    for (var i = 0; i < activeModals.length; i++) {
-      new Modal(activeModals[i]).hide();
-    }
+    // var activeModals = document.querySelectorAll('.fds-modal[aria-hidden=false]');
+    // for (var i = 0; i < activeModals.length; i++) {
+    //   new Modal(activeModals[i]).hide();
+    // }
     modalElement.setAttribute('aria-hidden', 'false');
     modalElement.setAttribute('tabindex', '-1');
     var eventOpen = document.createEvent('Event');
