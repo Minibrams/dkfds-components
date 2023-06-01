@@ -1,6 +1,6 @@
 {
   "name": "@minibrams/dkfds",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Fork of DKFDS fixed for use with Vue.js and Vite.",
   "engines": {
     "node": ">= 4"
